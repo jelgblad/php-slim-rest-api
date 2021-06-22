@@ -1,0 +1,14 @@
+{
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.8",
+        "php-di/php-di": "^6.3",
+        "slim/psr7": "^1.4",
+        "monolog/monolog": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\Controllers\\": "./src/controllers"
+        }
+    }
+}
